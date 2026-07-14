@@ -1,0 +1,33 @@
+;; data/datascript-tx.edn — DataScript tx-data derived from src/statute/facts.cljc
+;; `statute.facts/catalog` (ADR-2607141700 Wave 0). Same shape as sibling files.
+
+[#:statute{:id "esp.ley-sociedades-de-capital"
+           :title "Real Decreto Legislativo 1/2010, de 2 de julio, por el que se aprueba el texto refundido de la Ley de Sociedades de Capital"
+           :jurisdiction "ESP"
+           :kind :law
+           :law-number "BOE-A-2010-10544"
+           :url "https://www.boe.es/buscar/act.php?id=BOE-A-2010-10544"
+           :url-provenance :official-boe
+           :enacted-date "2010-07-02"
+           :retrieved-at "2026-07-15"
+           :topic [:corporate-governance :incorporation]}
+ #:statute{:id "esp.lopdgdd"
+           :title "Ley Orgánica 3/2018, de 5 de diciembre, de Protección de Datos Personales y garantía de los derechos digitales"
+           :jurisdiction "ESP"
+           :kind :law
+           :law-number "BOE-A-2018-16673"
+           :url "https://www.boe.es/buscar/act.php?id=BOE-A-2018-16673"
+           :url-provenance :official-boe
+           :enacted-date "2018-12-05"
+           :retrieved-at "2026-07-15"
+           :topic [:data-protection :privacy]}
+ #:statute{:id "esp.estatuto-de-los-trabajadores"
+           :title "Real Decreto Legislativo 2/2015, de 23 de octubre, por el que se aprueba el texto refundido de la Ley del Estatuto de los Trabajadores"
+           :jurisdiction "ESP"
+           :kind :law
+           :law-number "BOE-A-2015-11430"
+           :url "https://www.boe.es/buscar/doc.php?id=BOE-A-2015-11430"
+           :url-provenance :official-boe
+           :enacted-date "2015-10-23"
+           :retrieved-at "2026-07-15"
+           :topic [:labor :employment]}]
